@@ -87,7 +87,7 @@ def display(state):
 
 print("====================_____8 PUZZLE_____====================\n")
 
-for i in range(0,1):
+for i in range(0,10):
     puz = make_rand_8puzzle()
     print("[", i + 1, "] starting puzzle:\n")
     display(puz.initial)
@@ -358,7 +358,7 @@ def house_display(state):
 
 print("====================_____HOUSE PUZZLE_____====================\n")
 
-for i in range(0,1):
+for i in range(0,10):
     puz = make_rand_house_puzzle()
     print("[", i + 1, "] starting puzzle:\n")
     house_display(puz.initial)
